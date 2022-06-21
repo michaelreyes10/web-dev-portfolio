@@ -1,0 +1,167 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+section {
+    
+    background-color:whitesmoke;
+    color: #43434a;
+}
+
+.hero { 
+    background-color:#364f75;
+    height: 100vh; 
+    color:whitesmoke;
+    font-size: 40px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+
+.hero li {
+    text-decoration: none;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero-text{
+   margin-left: 80px;
+   margin-bottom: 200px;
+   
+}
+
+p { margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1{
+    margin: 0;
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.button {
+    font-size: 24px;
+    font-weight: 300;
+    background-color: coral;
+    height: 50px; 
+    width: 150px;
+    border-radius: 150px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.button:hover {
+    background-color: darksalmon; 
+}
+.button:active {
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.socials ul{
+    font-size: 24px;
+    padding-bottom: 200px;
+    list-style-type: none;
+}
+
+.sub-section {
+    display:flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+.sub-section-alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.about-me {
+    margin-left: 40px;
+}
+
+.project-card{
+    width: 300px;
+    height: 500px;
+    margin:10px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+}
+h3 {
+    font-weight: bold;
+    text-decoration:underline
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-image {
+    width: 300px;
+    border-radius:10px;
+    margin-top: 25px;
+    margin-bottom:100px ;
+}
+
+.subtext {
+    margin: 25px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #43434a;
+}
+.subtext a {
+     color:coral ;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    
+footer { 
+    background-color:#43434a;
+    text-align: center;
+    color: whitesmoke;
+    padding:80px
+
+}

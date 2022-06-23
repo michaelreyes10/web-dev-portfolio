@@ -14,6 +14,9 @@ section {
     color: #43434a;
 }
 
+
+
+
 .hero { 
     background-color:#364f75;
     height: 100vh; 
@@ -24,6 +27,9 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: #364f75;
+    filter: brightness(90%);
+    
 }
 
 
@@ -101,7 +107,9 @@ h2 {
     font-size: 24px;
     padding-bottom: 200px;
     list-style-type: none;
+    
 }
+
 
 .sub-section {
     display:flex;
@@ -113,11 +121,24 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 80px;
+    padding: 60px;
+}
+
+.socials img {
+    background-color: aliceblue;
+    border-radius: 50px;
+    
+}
+
+.mike-icon {
+    padding-top: 60px;
+    height: 200px; 
+    width:200px;
 }
 
 .about-me {
     margin-left: 40px;
+    
 }
 
 .project-card{
@@ -137,11 +158,22 @@ h3 {
 }
 
 .project-image {
-    width: 300px;
+    width: 300px; 
     border-radius:10px;
     margin-top: 25px;
     margin-bottom:100px ;
+    
+    
 }
+
+.project-image:hover { 
+    filter: brightness(80%);
+    
+}
+
+
+
+
 
 .subtext {
     margin: 25px;
@@ -151,7 +183,10 @@ h3 {
 }
 .subtext a {
      color:coral ;
+     
 }
+
+
 
 hr {
     margin-left: 20px;
@@ -165,3 +200,16 @@ footer {
     padding:80px
 
 }
+
+@media (max-width: 1000px) {
+    .project-container {
+        display:flex;
+        flex-wrap:wrap;}
+
+    
+
+
+
+}
+
+

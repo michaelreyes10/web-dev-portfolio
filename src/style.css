@@ -165,6 +165,9 @@ h3 {
     
     
 }
+.project-image2{
+    margin-bottom: 35px;
+}
 
 .project-image:hover { 
     filter: brightness(80%);
